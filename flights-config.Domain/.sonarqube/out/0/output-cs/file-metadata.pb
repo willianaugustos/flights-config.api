@@ -1,0 +1,17 @@
+m
+d/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/Airline.csutf-8m
+d/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/Airport.csutf-8j
+a/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/City.csutf-8s
+j/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/ECabinClasses.csutf-8p
+g/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/EPriceType.csutf-8l
+c/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/Flight.csutf-8m
+d/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/Segment.csutf-8y
+p/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Services/SearchFlightHandler.csutf-8y
+p/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Services/SearchFlightRequest.csutf-8z
+q/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Services/SearchFlightResponse.csutf-8ç
+Å/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/obj/Debug/net7.0/flights-config.Domain.GlobalUsings.g.csutf-8î
+à/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.csutf-8ä
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/obj/Debug/net7.0/flights-config.Domain.AssemblyInfo.csutf-8w
+lMicrosoft.Interop.JavaScript.JSImportGenerator/Microsoft.Interop.JavaScript.JSExportGenerator/JSExports.g.csutf-8w
+lMicrosoft.Interop.JavaScript.JSImportGenerator/Microsoft.Interop.JavaScript.JSImportGenerator/JSImports.g.csutf-8p
+eMicrosoft.Interop.LibraryImportGenerator/Microsoft.Interop.LibraryImportGenerator/LibraryImports.g.csutf-8

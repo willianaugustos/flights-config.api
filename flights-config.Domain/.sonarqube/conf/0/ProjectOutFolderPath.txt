@@ -1,0 +1,1 @@
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/.sonarqube/out/0

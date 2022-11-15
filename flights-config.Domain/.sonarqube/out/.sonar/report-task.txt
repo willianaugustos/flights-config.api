@@ -1,0 +1,6 @@
+projectKey=flights-config.Domain.csproj
+serverUrl=http://localhost:9000
+serverVersion=9.7.1.62043
+dashboardUrl=http://localhost:9000/dashboard?id=flights-config.Domain.csproj
+ceTaskId=AYR3-mWucH16Yc_dF4K-
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYR3-mWucH16Yc_dF4K-

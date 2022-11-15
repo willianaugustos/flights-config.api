@@ -1,0 +1,10 @@
+﻿/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/Airline.cs
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/Airport.cs
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/City.cs
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/ECabinClasses.cs
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/EPriceType.cs
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/Flight.cs
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Entities/Segment.cs
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Services/SearchFlightHandler.cs
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Services/SearchFlightRequest.cs
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Services/SearchFlightResponse.cs

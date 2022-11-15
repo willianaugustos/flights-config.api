@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/flights-config.api.props" />
+</Project>
