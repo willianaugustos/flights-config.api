@@ -31,3 +31,8 @@
 /Users/willian/Projetos/Flights/flights-config.api/flights-config.api/obj/Debug/net7.0/flights-config.api.genruntimeconfig.cache
 /Users/willian/Projetos/Flights/flights-config.api/flights-config.api/obj/Debug/net7.0/ref/flights-config.api.dll
 /Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/MediatR.dll
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/MediatR.Contracts.dll
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/flights-config.Domain.dll
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/flights-config.Domain.pdb
