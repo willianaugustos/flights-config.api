@@ -1,7 +1,8 @@
 namespace flights_config.Domain.Entities;
-public class Airport
+public class Airport : EntityBase
 {
-    public String IATACode {get;set;}
-    public string Name { get; set; }
-    public City City { get; set; }
+    public String IATACode {get; init;}
+    public string Name { get; init; }
+    public City City { get; init; }
+    public ECountries Country {get; init;}
 }

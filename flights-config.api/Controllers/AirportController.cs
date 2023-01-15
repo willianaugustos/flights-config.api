@@ -21,7 +21,7 @@ public class AirportController : ControllerBase
     public async Task<ActionResult> Get(string IATACode)
     {
         var query = new GetAirportByIATACodeRequest(IATACode);
-        GetAirportByIATACodeResponse response = await _sender.Send(query);
+        var response = await _sender.Send(query);
         //return response.IsSuccess() ? Ok(response.Value) : NotFound(response.Error);
         return Ok(response);
     }
