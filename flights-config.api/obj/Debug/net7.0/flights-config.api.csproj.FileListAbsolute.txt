@@ -36,3 +36,11 @@
 /Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/flights-config.Domain.dll
 /Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/flights-config.Domain.pdb
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Binder.dll
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/Npgsql.dll
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/flights-config.Data.dll
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/flights-config.Data.pdb
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
