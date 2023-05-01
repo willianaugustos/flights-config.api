@@ -15,6 +15,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddMediatR(typeof(flights_config.Domain.Services.SearchFlightsHandler).Assembly);
 builder.Services.AddScoped<IAirportsRepository, AirportsRepository>();
+builder.Services.AddScoped<IFlightsRepository, FlightsRepository>();
 builder.Services.AddDbContext<FlightsContext>(options=>options.UseNpgsql(""));
 var app = builder.Build();
 

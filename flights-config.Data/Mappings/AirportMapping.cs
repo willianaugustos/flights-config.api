@@ -11,7 +11,7 @@ public class AirportMapping : IEntityTypeConfiguration<Airport>
         Console.WriteLine("Mapping entities...");
        
         builder.ToTable("Airports");
-        builder.HasKey(k=>k.Id);
+        builder.HasKey(k=>k.IATACode);
         builder.Property(p=>p.City);
         builder.Property(p=>p.Country);
         builder.Property(p=>p.Id).HasColumnName("AirportId");

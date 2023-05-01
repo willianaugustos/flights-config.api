@@ -1,24 +1,65 @@
-﻿<Properties StartupConfiguration="{F8D0E022-890C-417F-8C37-62A8D6D52F2E}|Default">
-  <MonoDevelop.Ide.ItemProperties.flights-config.api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.flights-config.Domain.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+﻿<Properties StartupConfiguration="{F8D0E022-890C-417F-8C37-62A8D6D52F2E}|https">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.flights-config.Domain.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="flights-config.Domain/Flights/Services/SearchFlightHandler.cs">
+    <Files>
+      <File FileName="flights-config.Data/Repositories/AirportsRepository.cs" Line="25" Column="42" />
+      <File FileName="flights-config.api/Controllers/FlightController.cs" Line="24" Column="1" />
+      <File FileName="flights-config.Domain/Flights/Services/SearchFlightHandler.cs" Line="17" Column="1" />
+      <File FileName="flights-config.Domain/Flights/Services/SearchFlightRequest.cs" Line="15" Column="2" />
+      <File FileName="flights-config.Domain/Flights/Entities/Flight.cs" Line="29" Column="4" />
+      <File FileName="flights-config.Domain/Flights/Entities/Segment.cs" Line="20" Column="29" />
+      <File FileName="flights-config.Data/Mappings/FlightsMapping.cs" Line="10" Column="53" />
+      <File FileName="flights-config.Data/Repositories/FlightsRepository.cs" Line="12" Column="31" />
+      <File FileName="flights-config.Data/Mappings/AirportMapping.cs" Line="1" Column="1" />
+      <File FileName="flights-config.Domain/Flights/Entities/Airport.cs" Line="1" Column="1" />
+      <File FileName="flights-config.Domain/Flights/Entities/Airline.cs" Line="5" Column="40" />
+      <File FileName="flights-config.Data/Contexts/FlightsContext.cs" Line="32" Column="9" />
+      <File FileName="flights-config.Data/Mappings/SegmentMapping.cs" Line="16" Column="7" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="flights-config.api" expanded="True">
-            <Node name="flights-config.api" expanded="True" selected="True" />
+            <Node name="flights-config.api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="flights-config.Data" expanded="True">
+              <Node name="Contexts" expanded="True" />
+              <Node name="Mappings" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
+            <Node name="flights-config.Domain" expanded="True">
+              <Node name="Flights" expanded="True">
+                <Node name="Entities" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+                <Node name="Services" expanded="True">
+                  <Node name="SearchFlightHandler.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="flights-config.Tests" expanded="True" />
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="flights-config.api" expanded="True">
+            <Node name="flights-config.Tests" expanded="True" />
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.flights-config.api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/willian/Projetos/Flights/flights-config.api/flights-config.Data/Repositories/AirportsRepository.cs" relfile="flights-config.Data/Repositories/AirportsRepository.cs" line="17" column="1" />
+      <Breakpoint file="/Users/willian/Projetos/Flights/flights-config.api/flights-config.api/Controllers/FlightController.cs" relfile="flights-config.api/Controllers/FlightController.cs" line="24" column="1" />
+      <Breakpoint file="/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/Flights/Services/SearchFlightHandler.cs" relfile="flights-config.Domain/Flights/Services/SearchFlightHandler.cs" line="17" column="1" />
+      <Breakpoint file="/Users/willian/Projetos/Flights/flights-config.api/flights-config.Data/Mappings/FlightsMapping.cs" relfile="flights-config.Data/Mappings/FlightsMapping.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -1,4 +1,4 @@
 public abstract class EntityBase
 {
-    public Guid Id {get;init;}
+    public virtual Guid Id {get;init;}
 }

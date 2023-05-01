@@ -11,7 +11,11 @@ namespace Flights.Data.Contexts;
 public class FlightsContext : DbContext
 {
     public DbSet<Airport> Airports { get; set; }
-    
+    public DbSet<Airline> Airlines { get; set; }
+    public DbSet<Flight> Flights { get; set; }
+    public DbSet<Segment> FlightSegments { get; set; }
+
+
     public FlightsContext(DbContextOptions<FlightsContext> options) : base(options)
     {
        
@@ -26,8 +30,7 @@ public class FlightsContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-        //modelBuilder.ApplyConfiguration(new AirportMapping());
-   
+
         base.OnModelCreating(modelBuilder);
     }
 }
