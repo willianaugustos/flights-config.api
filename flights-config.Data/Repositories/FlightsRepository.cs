@@ -25,8 +25,9 @@ public class FlightsRepository : flights_config.Domain.Repositories.IFlightsRepo
     public async Task<List<Flight>> Search(string IATACodeFrom, string IATACodeTo, CancellationToken cancellationToken)
     {
         return await _dbContext.Set<Flight>()
-        //.Include(t=>t.Segments)
-        //.Where(i=>i.AirportO.Equals(IATACodeFrom.ToUpper()))
+        .Include(t=>t.FlightSegments)
+        .Where(i=>i.AirportOrigin.Equals(IATACodeFrom.ToUpper())
+        && (i.AirportDestination.Equals(IATACodeTo.ToUpper())))
         .ToListAsync(cancellationToken);
     }
 }
