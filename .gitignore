@@ -4,7 +4,6 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 # User-specific files
-*.DS_Store
 *.rsuser
 *.suo
 *.user
@@ -478,3 +477,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 *.xml
+.DS_Store
