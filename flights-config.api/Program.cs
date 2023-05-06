@@ -19,7 +19,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddMediatR(typeof(flights_config.Domain.Services.SearchFlightsHandler).Assembly);
 builder.Services.AddScoped<IAirportsRepository, AirportsRepository>();
 builder.Services.AddScoped<IFlightsRepository, FlightsRepository>();
-builder.Services.AddDbContext<FlightsContext>(options=>options.UseNpgsql(""));
+builder.Services.AddDbContext<FlightsContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

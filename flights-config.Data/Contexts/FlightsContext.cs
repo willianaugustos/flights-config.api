@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Reflection;
 using flights_config.Data.Mappings;
 using flights_config.Domain.Entities;
@@ -14,15 +15,15 @@ public class FlightsContext : DbContext
     public DbSet<Airline> Airlines { get; set; }
     public DbSet<Flight> Flights { get; set; }
     public DbSet<Segment> FlightSegments { get; set; }
+    private readonly IConfiguration config;
 
-
-    public FlightsContext(DbContextOptions<FlightsContext> options) : base(options)
+    public FlightsContext(DbContextOptions<FlightsContext> options, IConfiguration _config) : base(options)
     {
-       
+        config = _config;
     }
 
      protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseNpgsql("Host=localhost;Database=flights;Username=postgres;Password=mystrongpass");
+            => optionsBuilder.UseNpgsql(config.GetConnectionString("FlightsDB"));
 
     public Task<IDbContextTransaction> BeginTransactionAsync()
     => Database.BeginTransactionAsync();
