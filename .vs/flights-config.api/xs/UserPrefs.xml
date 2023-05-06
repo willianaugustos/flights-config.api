@@ -1,19 +1,60 @@
-﻿<Properties StartupConfiguration="{F8D0E022-890C-417F-8C37-62A8D6D52F2E}|Default">
+﻿<Properties StartupConfiguration="{F8D0E022-890C-417F-8C37-62A8D6D52F2E}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.flights-config.api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.flights-config.Domain.Tests PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/willian/Projetos/Flights/flights-config.api/flights-config.Data/Repositories/AirportsRepository.cs" relfile="flights-config.Data/Repositories/AirportsRepository.cs" line="17" column="1" />
+      <Breakpoint file="/Users/willian/Projetos/Flights/flights-config.api/flights-config.Data/Mappings/FlightsMapping.cs" relfile="flights-config.Data/Mappings/FlightsMapping.cs" line="25" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.flights-config.Domain.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="flights-config.api/flights-config.api.csproj">
+    <Files>
+      <File FileName="flights-config.api/.vscode/launch.json" Line="24" Column="15" IsPinned="True" />
+      <File FileName="flights-config.api/Program.cs" Line="13" Column="1" IsPinned="True" />
+      <File FileName="flights-config.api/appsettings.Development.json" Line="9" Column="1" />
+      <File FileName="flights-config.api/appsettings.json" Line="8" Column="22" />
+      <File FileName="flights-config.api/flights-config.api.csproj" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="flights-config.api" expanded="True">
-            <Node name="flights-config.api" expanded="True" selected="True" />
+            <Node name="flights-config.api" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+            <Node name="flights-config.Data" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="Contexts" expanded="True" />
+              <Node name="Mappings" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
+            <Node name="flights-config.Domain" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Flights" expanded="True">
+                <Node name="Airports" expanded="True">
+                  <Node name="Queries" expanded="True" />
+                </Node>
+                <Node name="Entities" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="flights-config.Tests" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="flights-config.api" expanded="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -21,4 +62,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
 </Properties>

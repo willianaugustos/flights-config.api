@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wGIscTnFPRVmopR5RZNLmkF9eodzoMyCcTnIGFBoXnPdp+dTW+mNokHHMGrb4fmphFNlFPZTOyzWDJ85VMFpuQ==",
+  "dgSpecHash": "RNb70ra7u/idr1FW3pHQqaDa4Dz0Zv1KgZN+fU1t6qvZcgArHrB0Ypy0FlqH2zAxzMHIrDnC5JHeQbDmmNaILg==",
   "success": true,
   "projectFilePath": "/Users/willian/Projetos/Flights/flights-config.api/flights-config.Domain/flights-config.Domain.csproj",
   "expectedPackageFiles": [
