@@ -87,7 +87,7 @@ insert into "Flights"(
      "LoyaltyProgram", "DepartureDate", "DepartureTime", "ArrivalTime", "ArrivalDateRelative", "Duration", "AdditionalInfo")
  values('a551ec31-45b1-4346-aad0-fc3b354245dd', 'GRU', 'MIA', 1, 1520.88, 1, 'BRL', '2023-01-19 21:57', null, 'Latam',
      null, '2023-05-02', '10:15', '17:30', '', '8 h 15 min.', 'Light');
-
+SELECT * FROM  "FlightSegments"
 insert into "FlightSegments"
     ( "FlightId", "SegmentNumber", "Airline", "FlightNumber", "AirportOrigin", "AirportDestination", "CabinClass",
      "DepartureDate",  "DepartureTime", "ArrivalTime", "ArrivalDateRelative", "Duration", "AdditionalInfo")
@@ -115,11 +115,11 @@ insert into "FlightSegments"
     ( "FlightId", "SegmentNumber", "Airline", "FlightNumber", "AirportOrigin", "AirportDestination", "CabinClass",
      "DepartureDate",  "DepartureTime", "ArrivalTime", "ArrivalDateRelative", "Duration", "AdditionalInfo")
 values('80d10df9-f6cd-4294-acf3-39daf98e9417', 2, '7b32c667-727b-47a8-9162-f51441755297', 'LA2387*', 'BOG', 'LIM', 'Economy', 
-     '2023-05-16', '18:30', '21:30', '', '3 h', 'Light')
+     '2023-05-16', '18:30', '21:30', '', '3 h', '7b32c667-727b-47a8-9162-f51441755297')
 
 
 insert into "FlightSegments"
     ( "FlightId", "SegmentNumber", "Airline", "FlightNumber", "AirportOrigin", "AirportDestination", "CabinClass",
      "DepartureDate",  "DepartureTime", "ArrivalTime", "ArrivalDateRelative", "Duration", "AdditionalInfo")
-values('80d10df9-f6cd-4294-acf3-39daf98e9417', 3, 'Latam', 'LA8005*', 'LIM', 'GRU', 'Economy', 
+values('80d10df9-f6cd-4294-acf3-39daf98e9417', 3, '7b32c667-727b-47a8-9162-f51441755297', 'LA8005*', 'LIM', 'GRU', 'Economy', 
      '2023-05-16', '0:05', '7:00', '', '4 h 55 min.', 'Light')
