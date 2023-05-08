@@ -1,3 +1,4 @@
+using System.Reflection;
 using System.Reflection.Metadata;
 using System.Text.Json.Serialization;
 using Flights.Data.Contexts;
@@ -16,7 +17,9 @@ builder.Services.AddControllers().AddJsonOptions(x =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddMediatR(typeof(flights_config.Domain.Services.SearchFlightsHandler).Assembly);
+//builder.Services.AddMediatR(typeof(flights_config.Domain.Services.SearchFlightsHandler).Assembly);
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly()));
+
 builder.Services.AddScoped<IAirportsRepository, AirportsRepository>();
 builder.Services.AddScoped<IFlightsRepository, FlightsRepository>();
 builder.Services.AddDbContext<FlightsContext>();
